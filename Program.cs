@@ -1,5 +1,5 @@
-﻿decimal salaireBrut = 30000;
-decimal impotSurLeRevenu = 0.30m;
+﻿decimal salaireBrut = Decimal.Parse(args[0]);
+decimal impotSurLeRevenu = Decimal.Parse(args[1]);
 
 decimal salaireNet = salaireBrut - (salaireBrut * impotSurLeRevenu);
 
