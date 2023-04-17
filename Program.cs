@@ -1,5 +1,8 @@
-﻿decimal salaireBrut = Decimal.Parse(args[0]);
-decimal impotSurLeRevenu = Decimal.Parse(args[1]);
+﻿Console.WriteLine("Entrez le salaire brut : ");
+decimal salaireBrut = Decimal.Parse(Console.ReadLine());
+
+Console.WriteLine("Entrez l'impôt sur le revenu : ");
+decimal impotSurLeRevenu = Decimal.Parse(Console.ReadLine());
 
 decimal salaireNet = salaireBrut - (salaireBrut * impotSurLeRevenu);
 
